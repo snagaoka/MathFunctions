@@ -23,6 +23,11 @@ describe("Math Functions", function() {
   	expect(sum).toBe(2);
   });
 
+  it("should power two numbers", function() {
+  	var sum = power(4, 4);
+  	expect(sum).toBe(64);
+  });
+
 
 });
 

@@ -13,3 +13,9 @@ function multiply (op1, op2) {
 function divide (op1, op2) {
 	return op1 / op2;
 }
+
+function power (op1, op2) {
+	return op1 ^ op2; 
+	// use loop
+}  
+
