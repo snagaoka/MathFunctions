@@ -24,10 +24,24 @@ describe("Math Functions", function() {
   });
 
   it("should power two numbers", function() {
-  	var sum = power(4, 4);
+  	var sum = power(4, 3);
   	expect(sum).toBe(64);
   });
 
+  it("should add the two numbers", function () {
+    var sum = test_add_1 ();
+    expect(sum).toBe(9);
+  });
+
+  it("should add the three numbers", function () {
+    var sum = test_add_2 ();
+    expect(sum).toBe(12);
+  });
+
+  it("should subtract the two numbers", function () {
+    var sum = test_subtract_1 ();
+    expect(sum).toBe(1);
+  });
 
 });
 
