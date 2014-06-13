@@ -1,4 +1,4 @@
-function add (op1, op2) {
+function add(op1, op2) {
 	return op1 + op2;
 }
 
@@ -37,6 +37,11 @@ function test_subtract_1 () {
 //	return
 //}
 
+}
 
-
+module.exports = {
+	add: add,
+	subtract: subtract,
+	multiply: multiply,
+	divide: divide
 }
